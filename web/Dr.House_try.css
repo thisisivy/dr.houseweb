@@ -126,6 +126,8 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     text-align: center;
 }        
 #Type{
+    background-image: url(./images/background3.jpg);
+    background-position:center;
     width:100%;
     height:120px;
     position: relative;
@@ -193,6 +195,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
 }
 
 #Body{
+    background-image: url(./images/background3.jpg);
     background-position:right bottom;
     width:100%;
     height:500px;
@@ -207,7 +210,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     position: absolute;
     height: 80%;
     width: 855px;
-    left: 28%;
+    left: 22%;
     top:35px;
     margin:8px;
 }
