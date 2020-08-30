@@ -156,7 +156,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
 #SubBody{
     background-image: url(../images/background3.jpg);
     width:100%;
-    height:800px;
+    height:1130px;
     position: relative;
 }
 #SubBody ._top{ 
@@ -166,6 +166,19 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     width: 100%;
 } 
 #SubBody ._middle{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#SubBody .sub_top{ 
+    position: relative; 
+    top: 20px; 
+    text-align: center;
+    width: 100%;
+} 
+#SubBody ._bottom{
+    top: 20px;
     position: relative;
     text-align: center;
     width: 100%;
