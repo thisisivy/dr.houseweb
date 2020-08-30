@@ -85,15 +85,24 @@
     width: 100%;
     margin: 0 auto;
   }
-<<<<<<< Updated upstream
+#Body .left{ 
+        position: relative; 
+        top: 90px; 
+} 
+#Body .Search{ 
+    width:100%; 
+    height:120px; 
+    top:10px; 
+    left: 0px; 
+    position: relative; 
+    text-align:center; 
+    line-height:80px; 
+    font-size:15px; 
+    color: black; 
+    font-weight:bold; 
+    background-color:transparent; 
+    }    
 #Search{
-=======
-#Body .left{
-    position: relative;
-    top: 90px;
-}
-#Body .Search{
->>>>>>> Stashed changes
     width:100%;
     height:120px;
     top:10px;
