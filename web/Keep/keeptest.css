@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bottom{
+    width: 100%;
+    height: 200px;
+}
+.Header{
+    width:100%;
+    height:68px;
+    text-align:center;
+    line-height:80px;
+    font-size:15px;
+    color:#fffaf3;
+    font-weight:bold;
+    background-color:#d3d3d3;
+}
+.Header .LeftHeader{
+    height: 68px;
+    width: 110px;
+    font-weight: 700;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    line-height: 68px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Header .RightHeader{
+    height: 68px;
+    width: 150px;
+    font-weight: 700;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    line-height: 68px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Header .MiddleHeader{
+    height: 68px;
+    width: 150px;
+    font-weight: 700;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    line-height: 68px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 0;
+    right: 110px;
+}
+.Header a{
+    height: 68px;
+    width: 110px;
+    display: block;
+    background-color: transparent;
+    color: black ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    right: 0px;
+  }
+  .Header a:hover{
+    height: 68px;
+    width: 150px;
+    background-color:white;
+    top: 0px;
+    display: block;
+  }
+#Search{
+    width:100%;
+    height:120px;
+    text-align:center;
+    line-height:80px;
+    font-size:15px;
+    color: black;
+    font-weight:bold;
+    background-color:#f1f1f1;
+}   
+#Search .demo{
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: center;
+}
+input[type="text"]{padding:15px 40px; border:1px black solid;
+    cursor:pointer;
+    text-align: 0px;
+    background: #ffffff;
+    font-size: 20px; 
+    font-weight: 700;
+    width: 50%;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: #333333;
+    border-style: solid;
+    padding-left: 10px;
+    outline: none;
+    outline-offset: 0;
+}
+input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
+    cursor:pointer;
+    background: #f39153;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}        
+#Type{
+    width:100%;
+    height:120px;
+    position: relative;
+    text-align:center;
+    line-height:80px;
+    font-size:15px;
+    color: black;
+    font-weight:bold; 
+}
+#Type .lifefunction{
+    width:100%;
+    height:100%;
+    padding: 0px 10px 10px 10px;
+    text-align:center;
+    padding: 0px;
+    line-height:120px;
+    font-size:25px;
+    color: black;
+    font-weight:bold;
+    border:0px #ccc solid;
+    position: absolute;
+    z-index: -3px;/*-1 可以當背景*/
+  
+}
+
+.lifefunction a{
+    bottom: 10px;
+    height: 100px;
+    color:black;
+    background-color:white;
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+    font-size: 20px;
+}
+
+#Body{
+    background-color:#616161 ;
+    background-position:center;
+    width:100%;
+    height:500px;
+    text-align:left;
+    position: relative;
+    line-height:280px;
+    font-size:15px;
+    color:#f9c81e;
+    font-weight:bold;
+}
+#Body .center {
+    position: absolute;
+    height: 80%;
+    width: 855px;
+    left: 22%;
+    top:80px;
+    border:;
+    margin:;
+}
+
+.center .option{
+    position: absolute;
+    height: 100%;
+    left: 10%;
+    top:0;
+}
+.center .option .list-inline{
+    position: absolute;
+    left: 10%;
+    top:0;
+}
+.option .tap{
+    right: 180px;
+    top:0px;
+    position: relative;
+    bottom: 110px;
+    color: rgb(0, 0, 0);
+    height: 10%;
+    width: 300px;
+    line-height: 10px;
+    font-size: 20px;
+}
+._right #IMG_1{
+    left: 450px;
+    position:absolute;
+    width:650px;
+    height:500px;
+    background-color:#53E355;
+    z-index:1;
+    opacity: 0.3;
+    }
+._right #IMG_2{
+    left: 470px;
+    top: 10px;
+    position:absolute;
+    width:650px;
+    height:500px;
+    background-color:#6DA9E7;
+    z-index:2;
+    opacity: 0.2;
+    }
+
+#SubTitle{
+    width:100%;
+    height:120px;
+    text-align:center;
+    left: 10%;
+    line-height:120px;
+    font-size:20px;
+    color: black;
+    font-weight:bold;
+    background-color:white;  
+}
+#SubBody{
+    width:100%;
+    height:500px;
+    text-align:center;
+    line-height:280px;
+    font-size:15px;
+    color:#f9c81e;
+    font-weight:bold;
+    background-color:#fffaf3;
+}
+#Footer{
+    width:100%;
+    height:80px;
+    text-align:right;
+    line-height:80px;
+    font-size:15px;
+    color:#fffaf3;
+    font-weight:bold;
+    background-color:#f9c81e;
+}

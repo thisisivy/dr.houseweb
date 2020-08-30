@@ -1,0 +1,22 @@
+.life-info-map-tab-content{
+    height: calc(100% - 49px);
+    margin-top: -2px;
+    border-top: 1px solid #9b9b9b;
+    overflow: auto;
+}
+.life-info-map-item {
+    font-size: 14px;
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html, body {
+    background-color: #ffffff;
+    font-family: Noto Sans TC,sans-serif!important;
+    color: #0e0e0e;
+    font-size: 15px;
+    line-height: 1.5;
+}
