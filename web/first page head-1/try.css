@@ -85,25 +85,31 @@
     width: 100%;
     margin: 0 auto;
   }
+<<<<<<< Updated upstream
 #Search{
+=======
+#Body .left{
+    position: relative;
+    top: 90px;
+}
+#Body .Search{
+>>>>>>> Stashed changes
     width:100%;
     height:120px;
+    top:10px;
+    left: 0px;
+    position: relative;
     text-align:center;
     line-height:80px;
     font-size:15px;
     color: black;
     font-weight:bold;
-    background-color:#f1f1f1;
+    background-color:transparent;
 }   
-#Search .demo{
-    padding-top: 20px;
-    padding-left: 30px;
-    text-align: center;
-}
 input[type="text"]{padding:15px 40px; border:1px black solid;
     cursor:pointer;
     text-align: 0px;
-    background: #ffffff;
+    background: #fffefe;
     font-size: 20px; 
     font-weight: 700;
     width: 50%;
@@ -124,61 +130,11 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     font-weight: 700;
     text-align: center;
 }        
-#Type{
-    width:100%;
-    height:120px;
-    position: relative;
-    text-align:center;
-    font-size:15px;
-    color: black;
-    font-weight:bold; 
-}
-#Type .active{
-    width:20%;
-    height:87%;
-    left: 20%;
-    padding: 0px 50px 10px -50px;
-    text-align:center;
-    line-height:120px;
-    color: black;
-    font-weight:bold;
-    position: absolute;
-    z-index: 2px;/*-1 可以當背景*/
-    -webkit-filter: blur(px);
-    filter: blur(0.5px);
-    font-size:25px;
-    border-bottom: 5px solid #01ab59;
-    cursor:pointer;
-}
-#Type .active:before {
-    display: block;
-    content: "";
-    border-width: 8px 12px 10px;
-    border-style: solid;
-    border-color: transparent transparent #01ab59;
-    position: absolute;
-    left: calc(50% - 5px);
-    bottom: 0;
-}
-#Type .tap{
-    width:20%;
-    height:87%;
-    right: 20%;
-    padding: 0px 50px 10px -50px;
-    text-align:center;
-    line-height:120px;
-    font-size:25px;
-    color: black;
-    font-weight:bold;
-    position: absolute;
-    box-sizing: border-box;
-    filter: blur(0.5px);
-    cursor:pointer;
-}
 
 #Body{
     background-color:#c3edf5 ;
     background-position:right bottom;
+    background-image: url(../images/background3.jpg);
     width:100%;
     height:500px;
     text-align:center;
@@ -188,128 +144,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     color:#f9c81e;
     font-weight:bold;
 }
-#Body .center {
-    position: absolute;
-    height: 80%;
-    width: 855px;
-    left: 22%;
-    top:80px;
-    margin:8px;
-}
-.center .maps{
-    position: absolute;
-    left: 0%;
-    height: 100%;
-    font-size: 25px;
-    border: 1px solid #1f3d35;
-}
-.center .right_bottom {
-    position: absolute;
-    right:0px;
-    bottom: 0%;
-    height: 80%;
-    width: 200px;
-}
-.center .right_bottom .listing{
-    position: absolute;
-    border: 1px solid #1f3d35;
-    right: 0px;
-    bottom: 0px;
-}
 
-.center .option{
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    height: 13%;
-    width: 304px;
-    right: 0;
-    top:0;
-    border: 1px solid #1f3d35;
-}
-.option .tap{
-    position: relative;
-    text-align: center;
-    bottom: 110px;
-    color: rgb(0, 0, 0);
-    height: 100%;
-    width: 50px;
-    line-height: 10px;
-    display: inline-block;
-    cursor: pointer;
-}
-.option .active:before {
-    display: block;
-    content: "";
-    border-width: 4px 6px 5px;
-    border-style: solid;
-    border-color: transparent transparent #01ab59;
-    position: absolute;
-    left: calc(50% - 5px);
-    bottom: 0;
-}
-.option .active{
-    position: relative;
-    color: black;
-    border-bottom: 2px solid #01ab59;
-    text-align: center;
-    bottom: 110px;
-    width: 50px;
-    height: 35%;
-    line-height: 10px;
-    display: inline-block;
-    cursor: pointer;
-}
-.center .option .life-info-map-tab{
-    color: tomato;
-    position: relative;
-    height: 100%;
-    text-align: center;
-    line-height: 0px;
-    top: 0px;
-    display: inline-block;
-}
-
-
-._right #IMG_1{
-    left: 450px;
-    position:absolute;
-    width:650px;
-    height:500px;
-    background-color:#53E355;
-    z-index:1;
-    opacity: 0.3;
-    }
-._right #IMG_2{
-    left: 470px;
-    top: 10px;
-    position:absolute;
-    width:650px;
-    height:500px;
-    background-color:#6DA9E7;
-    z-index:2;
-    opacity: 0.2;
-    }
-
-#SubTitle{
-    width:100%;
-    height:120px;
-    text-align:center;
-    line-height:120px;
-    font-size:25px;
-    color: black;
-    font-weight:bold;
-    background-color:#a9e2f3;  
-}
-#SubBody{
-    width:100%;
-    height:500px;
-    text-align:center;
-    line-height:280px;
-    font-size:15px;
-    color:#f9c81e;
-    font-weight:bold;
-    background-color:#fffaf3;
-}
 #Footer{
     width:100%;
     height:80px;
