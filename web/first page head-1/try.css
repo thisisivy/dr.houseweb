@@ -159,6 +159,12 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     height:500px;
     position: relative;
 }
+#SubBody ._top{ 
+    position: relative; 
+    top: 0px; 
+    text-align: center;
+    width: 100%;
+} 
 
 #Footer{
     width:100%;
