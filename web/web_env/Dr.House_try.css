@@ -203,8 +203,8 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     position: absolute;
     height: 80%;
     width: 855px;
-    left: 22%;
-    top:80px;
+    left: 19.75%;
+    top:42px;
     margin:8px;
 }
 .center .maps{
@@ -217,8 +217,8 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
 .center .right_bottom {
     position: absolute;
     right:0px;
-    bottom: 0%;
-    height: 100%;
+    bottom: -0.5%;
+    height: 105%;
     width: 200px;
 }
 .center .right_bottom .listing{
