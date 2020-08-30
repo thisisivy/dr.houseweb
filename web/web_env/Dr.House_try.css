@@ -81,9 +81,14 @@
     top: 0px;
     display: block;
   }
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
 #Search{
     width:100%;
-    height:120px;
+    height:110px;
     text-align:center;
     line-height:80px;
     font-size:15px;
@@ -121,8 +126,9 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     text-align: center;
 }        
 #Type{
+    background-image: url(./images/background3.jpg);
     width:100%;
-    height:120px;
+    height:100px;
     position: relative;
     text-align:center;
     font-size:15px;
@@ -133,7 +139,8 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     position: relative;
     width:90%;
     height:87%;
-    left: 0%;
+    left: 25%;
+    bottom: 10px;
     padding: 0px 50px 10px -50px;
     text-align:center;
     line-height:120px;
@@ -148,7 +155,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     position: relative;
     width:20%;
     height:87%;
-    right: 20%;
+    right: 10%;
     padding: 0px 50px 10px -50px;
     text-align:center;
     line-height:120px;
@@ -160,9 +167,10 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     display: inline-block;
 }
 #Type .active{
-    width:20%;
+    width:8%;
     height:87%;
-    right: 20%;
+    right: 35%;
+    bottom: 19px;
     padding: 0px 50px 10px -50px;
     text-align:center;
     line-height:120px;
@@ -171,7 +179,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     position: absolute;
     z-index: 2px;/*-1 可以當背景*/
     font-size:25px;
-    border-bottom: 5px solid #01ab59;
+    border-bottom: 5px solid black;
     cursor:pointer;
     display: inline-block;
 }
@@ -180,15 +188,15 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     content: "";
     border-width: 8px 12px 10px;
     border-style: solid;
-    border-color: transparent transparent #01ab59;
+    border-color: transparent transparent black;
     position: absolute;
-    left: calc(50% - 5px);
+    left: calc(50% - 12px);
     bottom: 0;
     display: inline-block;
 }
 
 #Body{
-    background-color:#c3edf5 ;
+    background-image: url(./images/background3.jpg);
     background-position:right bottom;
     width:100%;
     height:500px;
@@ -253,7 +261,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     content: "";
     border-width: 4px 6px 5px;
     border-style: solid;
-    border-color: transparent transparent #01ab59;
+    border-color: transparent transparent black;
     position: absolute;
     left: calc(50% - 5px);
     bottom: 0;
@@ -261,7 +269,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
 .option .active{
     position: relative;
     color: black;
-    border-bottom: 2px solid #01ab59;
+    border-bottom: 2px solid black;
     text-align: center;
     bottom: 110px;
     width: 50px;
@@ -293,6 +301,7 @@ input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
     }
 
 #SubTitle{
+    background-image: url(./images/background.jpg);
     width:100%;
     height:120px;
     text-align:center;
