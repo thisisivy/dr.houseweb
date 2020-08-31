@@ -212,6 +212,5 @@ input[type="submit"]:hover{
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
-    text-align: left;
-    
+    text-align: center;
 }
