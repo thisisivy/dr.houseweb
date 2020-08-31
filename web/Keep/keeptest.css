@@ -6,115 +6,102 @@
     width: 100%;
     height: 200px;
 }
-.Header{
+#top{ 
+    margin-top:0px;
+    margin-right:0px;
+    margin-left: 0px;
     width:100%;
-    height:68px;
-    text-align:center;
-    line-height:80px;
-    font-size:15px;
-    color:#fffaf3;
-    font-weight:bold;
-    background-color:#d3d3d3;
-}
-.Header .LeftHeader{
-    height: 68px;
-    width: 110px;
-    font-weight: 700;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    line-height: 68px;
-    letter-spacing: 5px;
-    position: absolute;
-    top: 0;
-    left: 20px;
-}
-.Header .RightHeader{
-    height: 68px;
-    width: 110px;
-    font-weight: 700;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    line-height: 68px;
-    letter-spacing: 5px;
-    position: absolute;
-    top: 0;
-    right: 10px;
-}
-.Header .MiddleHeader{
-    height: 68px;
-    width: 150px;
-    font-weight: 700;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    line-height: 68px;
-    letter-spacing: 5px;
-    position: absolute;
-    top: 0;
-    right: 90px;
-}
-.Header a{
-    height: 68px;
-    width: 110px;
-    display: block;
-    background-color: transparent;
-    color: black ;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    right: 0px;
-  }
-  .Header a:hover{
-    height: 68px;
-    width: 150px;
-    background-color:white;
-    top: 0px;
-    display: block;
-  }
-  .limiter {
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-#Search{
-    width:100%;
-    height:100px;
-    text-align:center;
-    line-height:70px;
-    font-size:15px;
-    color: black;
-    font-weight:bold;
-    background-color:#ffffff;
+    border: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
     
-}   
-#Search .demo{
-    padding-top: 13px;
-    padding-left: 30px;
+}
+/*keep*/
+.leftheader{
+    display:inline-block;
+    margin-right:10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration:none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 190px;
+}
+
+/*about us*/
+.middleheader{
+    display:inline-block;
+    margin-right:10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration:none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 110px;
+}
+
+/*log in*/
+.rightheader{
+    display:inline-block;
+    margin-right:10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration:none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+
+/* search*/
+#search .demo{
+    padding-top: 95px;
     text-align: center;
 }
-input[type="text"]{padding:15px 40px; border:1px black solid;
-    cursor:pointer;
-    text-align: 0px;
-    background: #ffffff;
-    font-size: 20px; 
-    font-weight: 700;
-    width: 50%;
-    height: 45px;
-    border-radius: 20px;
-    box-shadow: #333333;
+input[type="text"]{
+    padding:12px 15px;
+    border:1.5px ;
+    border-radius: 13px;
     border-style: solid;
-    padding-left: 10px;
+    border-color:#919191;
+    background-color: #ffffff;
+
+    font-size: 16px; 
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 55%;
+    height: 20px;
+
     outline: none;
     outline-offset: 0;
 }
-input[type="submit"]{padding:20px 40px; border:2px; border:0 none;
+input[type="submit"]{
+    margin-top:40px;
+    margin-bottom:80px ;
+    padding:12px 30px; 
+    border:1.5px; 
     cursor:pointer;
-    background: #f39153;
+    background: #dbcc8d;
+    border-radius: 13px;
+
+    font-size: 16px;
     color: #ffffff;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 1s;
 }        
+input[type="submit"]:hover{   
+    transform: scale(1.1)
+}
 #Type{
     width:100%;
     height:120px;

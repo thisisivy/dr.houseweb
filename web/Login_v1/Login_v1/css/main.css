@@ -150,61 +150,49 @@ iframe {
   font-size:15px;
   color:#fffaf3;
   font-weight:bold;
-  background-color:#f1f1f1;
-}
-.Header .LeftHeader{
-  height: 68px;
-  width: 110px;
-  font-weight: 700;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  line-height: 68px;
-  letter-spacing: 5px;
-  position: absolute;
-  top: 18px;
-  left: 20px;
-}
-.Header .RightHeader{
-  height: 68px;
-  width: 150px;
-  font-weight: 700;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  line-height: 68px;
-  letter-spacing: 5px;
-  position: absolute;
-  top: 18px;
-  right: 0px;
-}
-.Header .MiddleHeader{
-  height: 68px;
-  width: 155px;
-  font-weight: 700;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  line-height: 68px;
-  letter-spacing: 5px;
-  position: absolute;
-  top: 18px;
-  right: 120px;
-}
-.Header a{
-  height: 38px;
-  width: 140px;
-  display: block;
-  background-color: transparent;
-  color: black ;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  right: 0px;
-}
-.Header a:hover{
-  height: 38px;
-  width: 150px;
   background-color:white;
+}
+.LeftHeader{
+  display:inline-block;
+  margin-right:10px;
+  font-size: 16px;
+  color: black;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration:none;
+  letter-spacing: 2px;
+  position: absolute;
   top: 0px;
-  display: block;
+  right: 190px;
+}
+
+/*about us*/
+.MiddleHeader{
+  display:inline-block;
+  margin-right:10px;
+  font-size: 16px;
+  color: black;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration:none;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 0px;
+  right: 108px;
+}
+
+/*log in*/
+.RightHeader{
+  display:inline-block;
+  margin-right:10px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration:none;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}splay: block;
 }
 
 

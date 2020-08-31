@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top{ 
+    margin-top:0px;
+    margin-right:0px;
+    margin-left: 0px;
+    background-image: url(picture/first_page_pic.jpg);
+    width:100%;
+    border: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/*keep*/
+.leftheader{
+    display:inline-block;
+    margin-right:10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration:none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 190px;
+}
+
+/*about us*/
+.middleheader{
+    display:inline-block;
+    margin-right:10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration:none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 110px;
+}
+
+/*log in*/
+.rightheader{
+    display:inline-block;
+    margin-right:10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration:none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* dr.house*/
+#top #logo h1{
+    font-size: 60px;
+    color: black;
+    margin-top:100px ;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 10px;
+    line-height: 30px;
+    text-align:center;   
+}
+
+/* 方圓資訊一網打盡*/
+#top #logo h2{
+    font-size: 24px;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 10px;
+    line-height: 80px;
+    text-align:center;
+}
+
+/* search*/
+#search .demo{
+    padding-top: 95px;
+    text-align: center;
+}
+input[type="text"]{
+    padding:12px 15px;
+    border:1.5px ;
+    border-radius: 13px;
+    border-style: solid;
+    border-color:#919191;
+    background-color: #ffffff;
+
+    font-size: 16px; 
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 55%;
+    height: 20px;
+
+    outline: none;
+    outline-offset: 0;
+}
+input[type="submit"]{
+    margin-top:40px;
+    margin-bottom:80px ;
+    padding:12px 30px; 
+    border:1.5px; 
+    cursor:pointer;
+    background: #dbcc8d;
+    border-radius: 13px;
+
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 1s;
+}        
+input[type="submit"]:hover{   
+    transform: scale(1.1)
+}
+
+/*introductions background*/
+#introtuction{
+    background-color:#f3f4f0;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/*our services*/
+#introduction h1{
+    font-size: 30px;
+    color: black;
+    margin-top:100px ;
+    margin-bottom: 70px;
+    padding-top: 0px;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 10px;
+    line-height: 30px;
+    text-align:center;
+}
+
+#introduction .life{
+    display: inline;
+    margin-left:15% ;
+    margin-right: 10%; 
+    /*box-shadow: 3px 3px 4px 4px #848484;*/
+}
+
+#introduction .environment{
+    display: inline;
+    /*box-shadow: 3px 3px 4px 4px #848484;*/
+}
+
+#introduction .soil{
+    display: inline;
+    margin-left:15% ;
+    margin-right: 5%; 
+}
+
+#introduction .aqi{
+    display: inline;
+    margin-right: 5%; 
+}
+
+#introduction .house{
+    display: inline;
+    
+}
+
+#introduction input[type="submit"]{
+    margin-top:50px;
+    margin-bottom:100px ;
+    margin-left:46.5%;
+    padding:12px 30px; 
+    border:1.5px; 
+    cursor:pointer;
+    background: #ffffff;
+    border-radius: 0px;
+    box-shadow: 4px 4px 6px 1px #848484;
+
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
