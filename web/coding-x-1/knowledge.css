@@ -1,0 +1,209 @@
+body{
+    background-color: #f3f4f0;
+}
+
+/*keep*/
+#header .leftheader{
+    display:inline-block;
+    margin-right:10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 190px;
+}
+
+/*about us*/
+#header .middleheader{
+    display:inline-block;
+    margin-right:10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 90px;
+}
+
+/*log in*/
+#header .rightheader{
+    display:inline-block;
+    margin-right:10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#header .logo{
+    font-size: 24px;
+    color: black;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 15px;
+    left:25px;
+}
+
+#middle{
+    position: relative;
+}
+
+#middle h1{
+    font-size: 30px;
+    color: black;
+    margin-top:100px ;
+    margin-bottom: 70px;
+    padding-top: 0px;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 10px;
+    line-height: 30px;
+    text-align:center;
+}
+
+#middle .soil{
+    position:absolute;
+    display: inline-block;
+    margin-left:15% ;
+    margin-right: 65%;
+    margin-bottom: 50px;
+    
+}
+#middle .soil :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+#middle .aqi{
+    position:absolute;
+    display: inline-block;
+    margin-left: 40%; 
+    margin-right:40%;
+    margin-bottom: 50px;
+}
+#middle .aqi :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+#middle .house{
+    position:absolute;
+    display: inline-block; 
+    margin-left: 65%;
+    margin-right:15%;
+    margin-bottom: 50px;  
+}
+#middle .house :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+#middle .mountain{
+    position:absolute;
+    display: inline-block;
+    margin-top: 500px;
+    margin-left:15% ;
+    margin-right: 65%;
+    margin-bottom: 50px;
+}
+#middle .mountain :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+#middle .basin{
+    position:absolute;
+    display: inline-block;
+    margin-top: 500px;
+    margin-left: 40%; 
+    margin-right:40%;
+    margin-bottom: 50px;
+}
+#middle .basin :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+#middle .chasm{
+    position:absolute;
+    display: inline-block; 
+    margin-top: 500px;
+    margin-left: 65%;
+    margin-right:15%;
+    margin-bottom: 50px;  
+    
+}
+#middle .chasm :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+#middle .flood{
+    position:absolute;
+    display: inline-block;
+    margin-top: 1000px;
+    margin-left:15% ;
+    margin-right: 65%;
+    margin-bottom: 50px;
+}
+#middle .flood :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+#middle .landslide{
+    position:absolute;
+    display: inline-block;
+    margin-top: 1000px;
+    margin-left: 40%; 
+    margin-right:40%;
+    margin-bottom: 50px;
+}
+#middle .landslide :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+#middle .choosehouse{
+    position:absolute;
+    display: inline-block; 
+    margin-top: 1000px;
+    margin-left: 65%;
+    margin-right:15%;
+    margin-bottom: 50px;    
+}
+#middle .choosehouse :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+#middle .checkhouse{
+    position:absolute;
+    display: inline-block;
+    margin-top: 1500px;
+    margin-left:15% ;
+    margin-right: 65%;
+    margin-bottom: 50px;
+}
+#middle .checkhouse :hover{
+    transition: all 2s ease-out;
+    transform: scale(1.1)   
+}
+
+
+    

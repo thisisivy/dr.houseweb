@@ -161,7 +161,7 @@ iframe {
   text-decoration:none;
   letter-spacing: 2px;
   position: absolute;
-  top: 0px;
+  top: -5px;
   right: 190px;
 }
 
@@ -175,7 +175,7 @@ iframe {
   text-decoration:none;
   letter-spacing: 2px;
   position: absolute;
-  top: 0px;
+  top: -5px;
   right: 108px;
 }
 
@@ -190,9 +190,9 @@ iframe {
   text-decoration:none;
   letter-spacing: 2px;
   position: absolute;
-  top: 0px;
+  top: -5px;
   right: 15px;
-}splay: block;
+  display: block;
 }
 
 
@@ -219,25 +219,10 @@ iframe {
   font-size: 10px;
   color: #555555;
   position: absolute;
-  right: 180px;
+  right: 88px;
   top:280px;
   line-height: 1.4;
 }
-.txt4 {
-  font-family: Raleway-Regular;
-  font-size: 10px;
-  color: #555555;
-  position: absolute; 
-  right: 80px;
-  top:280px;
-  line-height: 1.4;
-}
-
-
-
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/
 

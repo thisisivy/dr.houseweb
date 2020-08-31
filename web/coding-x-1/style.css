@@ -7,7 +7,7 @@
     margin-top:0px;
     margin-right:0px;
     margin-left: 0px;
-    background-image: url(picture/first_page_pic.jpg);
+    background-image: url(picture/background.jpg);
     width:100%;
     border: 0px;
     background-size: cover;
@@ -25,7 +25,7 @@
     text-decoration:none;
     letter-spacing: 2px;
     position: absolute;
-    top: 15px;
+    top: 30px;
     right: 190px;
 }
 
@@ -39,7 +39,7 @@
     text-decoration:none;
     letter-spacing: 2px;
     position: absolute;
-    top: 15px;
+    top: 30px;
     right: 110px;
 }
 
@@ -54,7 +54,7 @@
     text-decoration:none;
     letter-spacing: 2px;
     position: absolute;
-    top: 15px;
+    top: 30px;
     right: 15px;
 }
 
@@ -62,7 +62,7 @@
 #top #logo h1{
     font-size: 60px;
     color: black;
-    margin-top:100px ;
+    margin-top:80px ;
     font-family: 'Acme', sans-serif;
     letter-spacing: 10px;
     line-height: 30px;
@@ -146,35 +146,61 @@ input[type="submit"]:hover{
     display: inline;
     margin-left:15% ;
     margin-right: 10%; 
-    /*box-shadow: 3px 3px 4px 4px #848484;*/
+    transition: 1s;
+}
+#introduction .life:hover{
+    transform: scale(1.05);
 }
 
 #introduction .environment{
     display: inline;
-    /*box-shadow: 3px 3px 4px 4px #848484;*/
+    transition: 1s;
+}
+#introduction .environment:hover{
+    transform: scale(1.05);
 }
 
 #introduction .soil{
     display: inline;
     margin-left:15% ;
     margin-right: 5%; 
+    transition: 1s;
+}
+#introduction .soil:hover{
+    transform: scale(1.05);
+
 }
 
 #introduction .aqi{
     display: inline;
     margin-right: 5%; 
+    transition: 1s;
+}
+#introduction .aqi:hover{
+    transform: scale(1.05);
+
 }
 
 #introduction .house{
     display: inline;
+    transition: 1s;
     
 }
+#introduction .house:hover{
+    transform: scale(1.05);
 
-#introduction input[type="submit"]{
+}
+
+#introduction .more{
     margin-top:50px;
     margin-bottom:100px ;
-    margin-left:46.5%;
-    padding:12px 30px; 
+    margin-left: 46.5%;
+    width: 4%;
+    padding-top:12px; 
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
     border:1.5px; 
     cursor:pointer;
     background: #ffffff;
@@ -186,5 +212,6 @@ input[type="submit"]:hover{
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
-
+    text-align: left;
+    
 }
